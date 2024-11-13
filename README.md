@@ -1,58 +1,68 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+## Kideny Stone Detection Using Deep Learning
+
+The primary goal of this project is to develop a robust and efficient deep learning model to assist in the automated  kidney Stone Detection.
 
 ## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+
+This project focuses on To Predicte Stone on kidney CT scan images using a deep learning model based on the VGG16 architecture. By leveraging transfer learning from the pre-trained VGG16 model, we aim to enhance feature extraction from the images and improve the model's accuracy.The dataset used in this project comprises CT images categorized into the four aforementioned classes. The model is trained using TensorFlow and Keras, with careful data preprocessing and augmentation to ensure high accuracy and generalization on unseen data.
 
 ## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
+
+- Accurate Kidney Classification
+- Efficient Image Preprocessing
 - High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+- Comprehensive Performance Metrics
+- Real-time Prediction
 
 ## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+
+
+- Operating System: Requires a 64-bit OS (Windows 10/11 or Ubuntu) to ensure compatibility with deep learning frameworks.
+- Development Environment: Python 3.7 or later is necessary for implementing and training the kidney classification model.
+- Deep Learning Frameworks: TensorFlow for building and training the VGG16-based neural network model.
+- Image Processing Libraries: OpenCV for efficient image preprocessing and visualization of kidney CT scans.
+- Version Control: Git for collaborative development and version tracking of the project’s codebase.
+- Additional Dependencies: Includes TensorFlow, Keras, scikit-learn, OpenCV, and Matplotlib for data processing, model training, and performance visualization tasks.
 
 ## System Architecture
-<!--Embed the system architecture diagram as shown below-->
-
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
 
 
-## Output
+![image](https://github.com/user-attachments/assets/b6075cdf-7b56-47b4-951a-da33d75a4519)
 
-<!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
 
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
+### Output
 
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+
+#### Output1 - Stone Detected 
+
+
+![image](https://github.com/user-attachments/assets/7e39fc25-7bbe-4827-843c-0cb139922456)
+
+
+
+#### Output2 - Normal Kidney
+
+![image](https://github.com/user-attachments/assets/a9925fb5-71d9-4b78-8874-1fe3313aa16d)
+
+
+
+Accuracy: 99.83%
 
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+The project successfully Predicted kidney Stone using the VGG16 model, achieving high accuracy across all classes. The model demonstrated strong generalization with validation accuracy exceeding 99%, showing minimal overfitting. The confusion matrix and classification reports confirmed the model's ability to accurately detect abnormalities. This approach has the potential to significantly enhance diagnostic efficiency in medical imaging.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+
+Maqsood, F., Zhenfei, W., Ali, M.M. et al. Artificial Intelligence-Based Classification of CT Images Using a Hybrid SpinalZFNet. Interdiscip Sci Comput Life Sci (2024). https://doi.org/10.1007/s12539-024-00649-4
+
+Bingol H, Yildirim M, Yildirim K, Alatas B. 2023. Automatic classification of kidney CT images with relief based novel hybrid deep model. PeerJ Computer Science 9:e1717 https://doi.org/10.7717/peerj-cs.1717
+
+Asif, S., Qurrat-ul-Ain, Awais, M. et al. IR-CNN: Inception residual network for detecting kidney abnormalities from CT images. Netw Model Anal Health Inform Bioinforma 12, 35 (2023). https://doi.org/10.1007/s13721-023-00431-4
+
+Bhattacharjee A, Rabea S, Bhattacharjee A,Elkaeed EB, Murugan R, Selim HMRM,Sahu RK, Shazly GA and Salem Bekhit MM(2023) “A multi-class deep learning modelfor early lung cancer and chronic kidney disease detection using computed tomography images”. Front. Oncol. 13:1193746.doi: 10.3389/fonc.2023.1193746
 
 
 
